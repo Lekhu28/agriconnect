@@ -1,0 +1,87 @@
+Crop and Yield Prediction
+==========================
+
+1. Importing the packages
+2. Exploring the dataset 
+	- Yield Prediction
+	- Crop Recommendation
+3. Data processing
+	- pandas dataframe
+	- Dropping unwanted column
+
+4. Visualization using seaborn & matplotlib
+5. Label Encoding using LabelEncoder
+6. Feature Selection
+8. Splitting the data  X and Y 
+9. Building the model
+
+	- Crop Recommendation
+		
+		- Decision Tree
+		- MLP-ANN
+		- Bagging Classifier with RF
+		- Voting Classifier (Bagging with RF + DT)
+
+
+	- Yield Prediction
+		
+		- Decision Tree
+		- MLP-ANN
+		- Bagging Classifier with RF
+		- Voting Classifier (Bagging with RF + DT)
+
+	
+10. Training the model
+11. Dumping the best model 
+
+Waste Detection
+=================
+
+12. Importing the packages
+13. Exploring the dataset 
+	- Reading the image
+	- plotting the image
+14. Image Processing
+	- converting to blob object
+	- defining the class
+	- declaring the bounding box
+	- convert the array to a numpy array
+15. Loading the pre-trained model
+	- reading the network layers
+	- extract the output layers
+16. Image processing
+	- appending the image - annotation file and images
+	- converting bgr to rgb
+	- creating the mask
+	- resizing the image
+17. Data Augmentation
+	- randoming the image
+	- rotating the image
+	- transforming the image
+
+18. Installing the packages required for yolo in Colab
+19. Processing the Data based on yolo model
+20. Building the model in colab
+
+	- YoloV5
+	- YoloV7
+	- YoloV8
+		
+
+21. Training the model
+22. Building the model 
+
+Flask Framework
+----------------
+ 
+23. Flask Framework with Sqlite for signup and signin
+24. Importing the packages
+25. User gives input 
+	- Feature Value
+		- Crop prediction
+		- Yield Prediction
+	- Waste Detection
+26. The given input is preprocessed for prediction and detection respectively
+27. Trained model is used for prediction and deetection 
+28. Final outcome is displayed through frontend
+
